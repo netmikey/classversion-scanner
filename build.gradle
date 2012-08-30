@@ -1,0 +1,14 @@
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName = "com.netmikey.cvscanner.ClassVersionScanner"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile (group: 'commons-cli', name: 'commons-cli', version: '1.2')
+}
