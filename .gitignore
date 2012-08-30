@@ -1,6 +1,6 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+# ignores for gradle/eclipse builds #
+build
+.gradle
+bin
+.classpath
+.settings
