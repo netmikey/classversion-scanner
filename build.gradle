@@ -3,6 +3,8 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
 
+sourceCompatibility = 1.6
+
 mainClassName = "com.netmikey.cvscanner.ClassVersionScanner"
 
 repositories {
