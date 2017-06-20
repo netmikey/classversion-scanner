@@ -28,7 +28,8 @@ public class Scanner {
         JavaVersion[] jVersions = new JavaVersion[] { new JavaVersion(1, 45, "1", "1.1"),
                 new JavaVersion(2, 46, "2", "1.2"), new JavaVersion(3, 47, "3", "1.3"),
                 new JavaVersion(4, 48, "4", "1.4"), new JavaVersion(5, 49, "5", "1.5", "5.0"),
-                new JavaVersion(6, 50, "6", "1.6", "6.0"), new JavaVersion(7, 51, "7", "1.7", "7.0") };
+                new JavaVersion(6, 50, "6", "1.6", "6.0"), new JavaVersion(7, 51, "7", "1.7", "7.0"),
+                new JavaVersion(8, 52, "8"), new JavaVersion(9, 53, "9") };
 
         CLASS_VERSIONS = new HashMap<Long, JavaVersion>();
         VERSIONS = new HashMap<String, JavaVersion>();
